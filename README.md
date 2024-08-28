@@ -38,29 +38,24 @@ nodemon start
 
 # End points
 
-#
-
-To create a card
-post
-/api/createcard
+# /api/createcard POST
 
 {
 "title": "xxxxx",
 "description":"xxxx"
 }
+In mongodb it will take automaticaly an unique identifier key.
 
-#
+# /api/getcards GET
+
+To get all cards
+
+# /api/getcard GET
 
 To get a card by its title
-get
-/api/getcard
+
 pass the title in the query
 
 or
-/api/getcard/?title=this%20is%20title
+# /api/getcard/?title=this%20is%20title
 
-#
-
-To get all cards
-get
-/api/getcards
