@@ -1,0 +1,80 @@
+.headerContainer {
+  background-color: rgba(221, 188, 221, 0.76);
+  display: flex;
+  flex-direction: column;
+}
+.subHeaderContainer {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 15px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  margin: auto 1px;
+}
+.leftDiv {
+  display: flex;
+  flex-direction: row;
+  color: white;
+}
+.rightDiv {
+  margin-right: 20px;
+}
+.rightDiv button {
+  color: white;
+  border-radius: 5px;
+  background-color: rgba(50, 50, 50, 0.877);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  text-wrap: wrap;
+  padding: 5px;
+  padding-bottom: 8px;
+  border-color: white;
+  border-style: ridge;
+}
+
+.searchContainer {
+  font-size: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 70px;
+}
+
+.searchBarContainer {
+  display: flex;
+  flex-direction: row;
+  max-width: 400px;
+  margin: 0 auto;
+  border: 1px solid #161313;
+  border-radius: 5px;
+  margin-top: 20px;
+  overflow: hidden;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.searchInput {
+  padding: 10px 15px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  border-radius: 5px 0 0 5px;
+}
+
+.searchButton {
+  padding: 10px 10px;
+  border: none;
+  background-color: #ffffff;
+  color: black;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 0 5px 5px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.searchButton:hover {
+  background-color: #2280e4;
+}

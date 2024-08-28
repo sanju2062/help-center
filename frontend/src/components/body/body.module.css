@@ -1,0 +1,14 @@
+.bodyContainer {
+  display: flex;
+  flex-direction: column;
+  flex-flow: wrap;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+.noCards {
+  font-size: 30px;
+  font-weight: bold;
+  padding: 20px;
+}

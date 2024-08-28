@@ -1,0 +1,39 @@
+.footerContainer {
+  background-color: black;
+  margin: 0 1px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-flow: wrap;
+  text-align: start;
+  /* position: fixed;
+  top: auto;
+  left: 0;
+  bottom: 0;
+  right: 0; */
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.copyrightCon {
+  justify-content: flex-end;
+  margin-bottom: 40px;
+}
+.copyrightCon p {
+  padding: 0;
+  margin: 0;
+}
+.footerContainer ul {
+  list-style: none;
+  text-align: start;
+  padding: 0;
+}
+
+.footerContainer li {
+  font-size: 15px;
+}
+.footerContainer div {
+  display: flex;
+  flex-direction: column;
+  margin-right: 25px;
+}
